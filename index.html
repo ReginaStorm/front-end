@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<title>
+		Project
+	</title>
+</head>
+<body class ="body">
+	<header class="header">
+		<nav class="nav">
+			<a href="#" class="link logo"><img src="./img/logo.svg" alt="logo"></a>
+			<a href="#" class="link">GIFs</a>
+			<a href="#" class="link">Photos</a>
+		</nav>	
+	</header>
+	
+	<main class="main">
+		<section class="hero">
+			<h1 class="hero-header">Search for images and GIFs</h1>
+			<h2 class="hero-subheader">Pictures and GIFs for personal use.</h2>
+			<form class="form" action="#">
+				<div class="form-container">
+					<input class="search" type="text" placeholder="Search...">
+					<select class="select">
+						<option value="gifs">GIFs</option>
+						<option value="photos">Photos</option>
+					</select>
+				</div>
+			</form>	
+		</section>
+
+		<section class="card-section">
+			<div class="switcher">
+				<div class="switch">Latest</div>
+				<div class="divider"><img src="./img/line.svg" alt="divider"></div>
+				<div class="switch">Popular</div>				
+			</div>	
+			<div class="card-wrapper">
+				<article class="card">
+					<div class="image-wrapper"><img src="./img/card-1.svg" alt= "first card"></div>
+					<div class="text-wrapper">
+						<h1 class="card-header">Chotte Ustaad</h1>
+						<p class="card-text">This vector is available in .EPS and .PSD formats.</p>
+						<a class="card-link" href="#">Download</a>
+					</div>
+				</article>
+				<article class="card">
+					<div class="image-wrapper"><img src="./img/card-2.svg" alt= "second card"></div>
+					<div class="text-wrapper">
+						<h1 class="card-header">Rowdy Billa</h1>
+						<p class="card-text">This vector is available in .EPS and .PSD formats.</p>
+						<a class="card-link" href="#">Download</a>
+					</div>
+				</article>
+				<article class="card">
+					<div class="image-wrapper"><img src="./img/card-3.svg" alt= "third card"></div>
+					<div class="text-wrapper">
+						<h1 class="card-header">Humpty Dumpty</h1>
+						<p class="card-text">This vector is available in .EPS and .PSD formats.</p>
+						<a class="card-link" href="#">Download</a>
+					</div>
+				</article>				
+			</div>
+		</section>
+	</main>
+
+	<footer class ="footer">
+		<nav class ="nav-footer">
+			<button class ="next-button">Next page</button>
+			<div class= "page-container">
+				<span class ="page-of">Page</span>
+				<button class ="next"> < </button>
+				<button class ="current"> 1 </button>
+				<button class ="previous"> > </button>
+				<span class ="page-of">of 120</span>
+			</div>
+		</nav>
+	</footer>
+</body>
+</html>

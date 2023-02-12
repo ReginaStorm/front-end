@@ -1,0 +1,271 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+@font-face{
+	font-family: Poppins;
+	src: url(./fonts/Poppins-Regular.ttf) format("truetype");
+}
+.body {
+	background: #161819;
+}
+/*хідер*/
+.header {
+	max-width: 1380px;
+	margin: 50px auto auto 145px;
+}
+.nav {
+	display: flex;
+	width: 300px;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo {
+	width: 87px;
+	height: 64px;
+}
+.link {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 0.1em;
+	color: #fff;
+}
+.nav-footer {
+	display: flex;
+	justify-content: flex-end;
+    align-content: center;
+}
+/*секція з пошуковою строкою*/
+.hero {
+	margin: 40px 427px 75px 428px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px;
+	gap: 40px;
+	width: 810px;
+	height: 225px;
+	margin-top: 40px;
+}
+.hero-header {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 72px;
+	letter-spacing: 0.1em;
+	color: #fff;
+}
+.hero-subheader {
+	width: 585px;
+	height: 30px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	color: rgba(255, 255, 255, 0.5);
+	margin-top: 10px;
+}
+.form-container {
+	margin-top: 20px;
+	position: relative;
+	width: 810px;
+	height: 64px;
+	background: url(./img/mag-glass.svg) no-repeat center right 30px #252728;
+	border-radius: 10px;
+}
+.search {
+	position: absolute;
+	width: 100px;
+	height: 33px;
+	left: 157px;
+	top: 20.5px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 33px;
+	letter-spacing: 0.05em;
+	color: rgba(255, 255, 255, 0.25);
+	background: none;
+	border: none;
+}
+.select {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 12px 16px;
+	gap: 4px;
+	width: 108px;
+	height: 50px;
+	left: 20px;
+	top: 7px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 24px;
+	text-align: center;
+	background: url("./img/gif-triangle.svg") no-repeat 85% 50%, linear-gradient(99.59deg, #F473A3 3.39%, #FE5661 97.89%);
+	border-radius: 10px;
+	appearance: none;
+}
+/*останні-популярні*/
+.card-section {
+	margin-left: 150px;
+	margin-top: 125px;
+}
+.switcher {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	padding: 0px;
+	gap: 35px;
+	width: 265px;
+	height: 35px;
+	width: 85px;
+	height: 35px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 35px;
+	letter-spacing: 0.1em;
+	color: #fff;
+}
+.switcher:after {
+	content: url("./img/dot.svg");
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	left: 240px;
+	top: 490px;
+}
+/*картки*/
+.card-wrapper {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+}
+.card {
+	width: 425px;
+	height: 500px;
+	left: 620px;
+	top: 530px;
+	background: #1F2123;
+	border-radius: 24px;
+	align-items: center;
+	margin-right: 50px;
+}	
+.image-wrapper {
+	width: 375px;
+	height: 280px;
+	margin: 25px;
+	background: #393A3E;
+	border-radius: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+ }
+.card-header {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 48px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	color: #fff;
+}
+.card-text {
+	margin: 5px 100px 15px;
+	width: 225px;
+	height: 40px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	color: #fff;
+	opacity: 0.6;
+}
+.card-link {
+	width: 200px;
+	height: 40px;	
+	margin: 0px auto 25px 130px;
+	padding-right: 30px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	letter-spacing: 0.05em;
+	text-decoration-line: underline;
+	color: #fff;
+	opacity: 0.5;
+	background: url(./img/download.svg) no-repeat center right 0px #1F2123;
+}
+/*футер*/
+.footer {
+	max-width: 1380px;
+	margin-top: 100px
+}
+.next-button {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	border: none;
+	text-align: left;
+	height: 75px;
+	width: 240px;
+	padding: 20px 24px;
+	margin-right: 200px;	
+	font-family: 'Poppins';
+	font-size: 24px;
+	line-height: 36px;
+	letter-spacing: 0.1em;
+	color: #fff;
+	background: url("./img/arrow.svg") no-repeat center right 24px #252728;
+	border-radius: 10px;
+}
+.page-container {
+	margin-top: 25px;
+}
+.page-of {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 27px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	color: #fff;
+	opacity: 0.25;
+}
+.next, .current, .previous {
+	width: 34px;
+	height: 34px;
+	left: 0px;
+	top: 0px;
+	background: #1F2123;
+	border-radius: 6px;
+	border: none;
+}
+.current {
+	font-family: 'Poppins';
+	color: #fff;
+	background: #393A3E;
+}
